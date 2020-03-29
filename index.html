@@ -1,6 +1,7 @@
 <html>
 <head>
   <meta charset='UTF8'>
+  <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <title> 7d822 7b909 </title>
@@ -8,7 +9,8 @@
 
 <body>
 
-  <div class="header">
+<div id="home">
+  <div class="container header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">ABC</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +23,7 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blog">About</a>
+              <a class="nav-link" href="about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -31,36 +33,56 @@
       </nav>
   </div>
 
-  <div class="body container" id="body">
+  <div class="content container" id="content">
     <div class="top_section row align-items-center">
-      <div class="top-left col-lg col-8">
+      <div class="top-left  col-lg-6">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
-      <div class="top-right col-4 col-lg">
+      <div class="top-right col-lg-6">
         <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
     </div>
-    <div class"bottom_secton row align-items-center">
-      <div class="col-4  col-lg bottom-left">
-        <img src="https://picsum.photos/300/300?grayscale">
+    <div class="bottom_section row align-items-center">
+      <div class="col-4 bottom_left">
+        <img class="rounded" src="https://picsum.photos/300/300?random=1">
       </div>
-      <div class="col-4  col-lg bottom-middle">
-        <img src="https://picsum.photos/300/300?grayscale">
+      <div class="col-4 bottom_middle">
+        <img class="rounded" src="https://picsum.photos/300/300?random=2">
       </div>
-      <div class="col-4 col-lg bottom-right">
-        <img src="https://picsum.photos/300/300?grayscale">
+      <div class="col-4 bottom_right">
+        <img class="rounded" src="https://picsum.photos/300/300?random=3">
       </div>
     </div>
   </div>
-  <div class="footer container-lg" id="footer">
-    <p>Copyright 2020</p>
+</div>
+<div id="about">
+</div>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h3>Contact Us</h3>
+        <p> Email: yashimoto@gmail.com </p>
+        <p> Phone: 204 234 2342</p>
+      </div>
+      <div class="col-6">
+        <h3>Address </h3>
+        <p>142 Somewhere Dr, El Dorado, CA, 94444</p>
+        <p>Please leave your information in the form below
+      </div>
+    </div>
   </div>
-  <script src="./assets/script/bootstrap.min.js">
-  <script src="./assets/script/script.js">
+</div>
+
+<div class="footer container-fluid" id="footer">
+  <p>Copyright 2020</p>
+</div>
+<script src="./assets/script/bootstrap.min.js">
+<script src="./assets/script/script.js">
 </body>
 
 </html>
