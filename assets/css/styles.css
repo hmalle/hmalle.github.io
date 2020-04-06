@@ -3,7 +3,7 @@ body{
 }
 
 .header{
- 
+  margin-bottom: 20px;
 }
 .content {
   
@@ -46,3 +46,12 @@ body{
   text-align: center;
 }
 
+/* PORTFOLIO */
+.project{
+}
+.project img {
+  margin-right: 10px;
+  float : left;
+  height: 300px;
+  width: 300px;
+}
