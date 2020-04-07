@@ -4,9 +4,14 @@ body{
 
 .header{
   margin-bottom: 20px;
+  font-size: 1.3em;
+}
+nav {
+  background-color: #72aec0;
+  border-radius: 5px;
 }
 .content {
-  
+  padding-bottom: 30px; 
 }
 
 /* TOP SECTION */
@@ -26,6 +31,7 @@ body{
 .bottom_section{
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-bottom: 50px;
 }
 .bottom_section div{ 
 
@@ -48,10 +54,31 @@ body{
 
 /* PORTFOLIO */
 .project{
+  margin-top: 50px;
+  box-shadow: 1px 1px 5px #0c0c0c;
+  border-radius: 5px;
+  padding: 10px;
 }
 .project img {
   margin-right: 10px;
   float : left;
   height: 300px;
   width: 300px;
+  box-shadow: 2px 7px 5px #0c0c0c;
 }
+.project h3{
+  color: #033842;
+}
+
+/* -------------------- */
+-------L/* CONTACT --------*/
+.contact_form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#message{
+  max-height: 400px;
+}
+
+/* ------------------------ */
